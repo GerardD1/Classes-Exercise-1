@@ -9,7 +9,9 @@ class BankAccount {
 }
 
 class BankAccountWithFee extends BankAccount {
-    this.fee = 5.00;
+    constructor(balance, interestRate, fee) {
+        super(this.fee);
+    }
     applyFee() {
         this.balance - this.fee;
     }
